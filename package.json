@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Hammrfall/bamazon#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "cli-table": "^0.3.1",
     "format-usd": "^1.0.1",
     "inquirer": "^5.2.0",
     "mysql": "^2.15.0"
