@@ -25,7 +25,7 @@ var IDInput = {
     type: 'list',
     name: 'IDinput',
     message: 'How do you want to log in?',
-    choices: ['User', 'Manager', 'Supervisor']
+    choices: ['User', 'Manager']
 };
 
 function login() {
@@ -37,11 +37,7 @@ function login() {
             case 'Manager':
                 managerPrompts();
                 break;
-            case 'Supervisor':
-
-                break;
         }
-
     });
 }
 //returns the unique department names in alphabetical order
